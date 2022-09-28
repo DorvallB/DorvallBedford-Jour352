@@ -1,22 +1,30 @@
 /*
 MY COLOR PALETTE
-Color 1 - #HEX
-Color 2 - #HEX
-Color 3 - #HEX
-Color 4 - #HEX
-Color 5 - #HEX
+Crimson - #D80032
+Imperial Red - #EF233C
+Cultured - #EDF2F4
+Star Command Blue - #197BBD
+Oxford Blue - #0A2239
 */
 
 body {
-    background-color: ;
+    background-color:#D80032;
     text-align:center;
 }
 
 div {
     width: 300px;
-    height: 300px;
+    height: 200px;
     text-align:center;
     font-size:44px;
     font-family: 'Courgette', cursive;
-    color: ;
+    color:#EDF2F4;
+    border:5px solid #197BBD;
+    padding:30px 30px 25px 25px;
+    margin:auto;
+}
+
+#highlight {
+    color:#0A2239;
+    font-weight:bold;
 }
