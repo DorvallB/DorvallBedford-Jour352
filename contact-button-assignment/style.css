@@ -18,6 +18,7 @@ button {
     color:#F0E6EF;
     Font-Family: 'Monda', Sans-Serif;
     font-weight: 500;
+    text-transform:lowercase;
     width:150px;
     padding:10px;
     margin-top:50px;
