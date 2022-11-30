@@ -1,22 +1,71 @@
-@media {
+@media (min-width:412px) {
     /*Phone styles here*/
     /*This media query targets any screen smaller than 576px wide (see below)*/
     h1 {
-        
+        font-size:20px;
+    }
+    h2 {
+        font-size: 12px;
+    }
+    p {
+        font-size: 12px;
     }
 }
 
 @media (min-width: 576px) {
     /*Tablet-only styles here*/
     /*This media query targets any screen that is at least 576px wide (but smaller than 992px wide (see below)*/
+    h1 {
+        font-size:35px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    p {
+        font-size: 18px;
+    }
 }
 
 @media (min-width: 992px) {
     /*Desktop-only styles here*/
     /*This media query targets any screen that is at least 992px wide*/
+    h1 {
+        font-size:50px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    p {
+        font-size: 25px;
+    }
+    body {
+        margin-left:20px;
+        margin-right:20px;
+    }
 }
 
 @media (min-width: 1200px) {
     /*Large-Desktop-only styles here*/
     /*This media query targets any screen that is at least 1200px wide*/
+    h1 {
+        font-size:50px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    p {
+        font-size: 25px;
+    }
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    
 }
